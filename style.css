@@ -63,11 +63,12 @@ body i{
     width: 90%;
 }
 .imgGallery{
-    width: 100%;
+    width: 300%;
     gap: 4px;
 }
 .imgGallery img{
     filter: grayscale(0%);
+    width: 100%;
 }
 
 

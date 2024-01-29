@@ -15,7 +15,7 @@ ScrollContainer.style.scrollBehavior = "auto"
 
 backButton.addEventListener("click",(e)=>{
     ScrollContainer.style.scrollBehavior = "smooth"
-    ScrollContainer.scrollLeft-=900
+    ScrollContainer.scrollLeft-=300
     
 })
 
@@ -23,5 +23,5 @@ forwardButton.addEventListener("click",(e)=>{
     
     ScrollContainer.style.scrollBehavior = "smooth"
     
-    ScrollContainer.scrollLeft+=900
+    ScrollContainer.scrollLeft+=300
 })
